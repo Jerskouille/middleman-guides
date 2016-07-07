@@ -1,7 +1,7 @@
 // SEARCHBOX
 $searchbox-config: (
   input-width: calc(100% - 450px),
-  input-height: 36px,
+  input-height: 32px,
   border-width: 0px,
   border-radius: 0px,
   input-border-color: transparent,
@@ -11,13 +11,13 @@ $searchbox-config: (
   font-size: 16px,
   placeholder-color: rgba(255, 255, 255, 0.9),
   icon: 'sbx-icon-search-21',
-  icon-size: 22px,
+  icon-size: 18px,
   icon-position: left,
   icon-color: white,
   icon-background: #458EE1,
   icon-background-opacity: 0,
   icon-clear: 'sbx-icon-clear-1',
-  icon-clear-size: 16px
+  icon-clear-size: 14px
 ) !default;
 
 // DROPDOWN

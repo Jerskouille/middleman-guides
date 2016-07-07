@@ -3,11 +3,11 @@ import docsearch from 'docsearch.js';
 function showHideReset () {
   var val = (this.value === undefined || this.value === "") ? 'none' : 'block';
   this.parentNode.parentNode.querySelector('.searchbox__reset').style.display = val;
-  console.log('Changed to', val);
 }
 
 export default function () {
-  window.ds = docsearch({
+
+  var ds = docsearch({
     apiKey: 'a1e1ce4270154213659b1056053824cd',
     indexName: 'middleman',
     inputSelector: '#search-input',
